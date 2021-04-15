@@ -1,0 +1,1009 @@
+/*Global*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-width: 220px;
+}
+
+body {
+    font-family: "Georgia", "Palatino Linotype", sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    background-color: #C4C1C1;
+    color: #F2F2F2;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #ea1414;
+    font-family: "Abril Fatface", "Georgia", sans-serif;
+    font-weight: 300;
+    font-size: 130%;
+}
+
+p .highlight {
+    color: #ff4f4f;
+}
+
+.current {
+    color: #ea1414;
+    font-weight: bold;
+}
+
+.trans-box {
+    background: black;
+    opacity: 0.68;
+    margin: 0 15%;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: ghostwhite;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.one-half {
+    position: relative;
+    margin: 30px 0 0 50px;
+    width: 50%;
+    overflow: hidden;
+    background-color: #191818;
+    background: -webkit-linear-gradient(#191818, #464343);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#191818, #464343);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#191818, #464343);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#191818, #464343);
+    /* Standard syntax */
+    border-radius: 30px;
+    box-shadow: 7px 7px 20px 10px #000000;
+    color: #F2F2F2;
+
+}
+
+.one-fourth {
+    margin: 30px 0 0 20px;
+    width: 23%;
+    float: left;
+    text-align: center;
+    background-color: #B01212;
+    background: -webkit-linear-gradient(#CB0B0B, #230202);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#CB0B0B, #230202);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#CB0B0B, #230202);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#CB0B0B, #230202);
+    /* Standard syntax */
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.container1 {
+    width: 100%;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 100px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    overflow: hidden;
+    color: black;
+}
+
+.container2 {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 3%;
+    background: -webkit-linear-gradient(#191818, #464343);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#191818, #464343);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#191818, #464343);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#191818, #464343);
+    /* Standard syntax */
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    overflow: hidden;
+}
+
+.simple-fourth {
+    margin: 30px 0 0 20px;
+    width: 23%;
+    float: left;
+    text-align: center;
+}
+
+.title {
+    text-align: left;
+    font-size: 200%;
+
+    border-bottom-style: solid;
+    border-width: 2.5px;
+    border-color: #B01212;
+
+    padding: 0 0 7px 20px;
+    margin: 22px 70% 10px 30px;
+}
+
+.mid-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+/*Global End*/
+
+/*ERRORS*/
+
+#error {
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+#error .error-text {
+    display: block;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+
+
+}
+
+/*Header Start*/
+
+header {
+    padding: 10px 0 10px 0;
+    height: 40px;
+    min-height: 40px;
+    background-color: #3D3C3C;
+    overflow: hidden;
+    border-bottom-style: groove;
+    border-bottom-width: 4px;
+    border-bottom-color: #C6BDBD;
+}
+
+#menu-icon {
+    display: none;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+header #logo {
+    position: absolute;
+    padding-left: 18px;
+    margin-top: -5px;
+    font-size: 33px;
+    font-family: "Abril Fatface", "Georgia", sans-serif;
+    float: left;
+}
+
+header nav {
+    float: right;
+    padding-top: 10px;
+}
+
+header nav a:hover {
+    color: #D81414;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header ul li {
+    font-size: 85%;
+    float: left;
+    display: inline-block;
+    padding: 0 30px 0 20px;
+}
+
+/*Header End*/
+
+/*Banner Start*/
+
+#banner {
+    height: 475px;
+    text-align: center;
+    background-color: black;
+    padding-top: 200px;
+    background: url(./imgs/Garden2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+}
+
+#banner .trans-box {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    font-size: 115%;
+}
+
+#banner .trans-box h1 {
+    font-weight: 500;
+    font-size: 300%;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #B01212;
+    padding-bottom: 10px;
+}
+
+#banner .trans-box ul {
+    margin-bottom: -20px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+#banner .trans-box ul li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 20px;
+    border-right-style: groove;
+}
+
+#banner .trans-box ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+#banner .trans-box ul li:hover {
+    background-color: #D6D4D4;
+}
+
+#banner .trans-box ul li:hover a {
+    color: black;
+}
+
+/*Banner End*/
+
+/*About Me Start*/
+
+#about-me {
+    float: left;
+    padding: 30px 30px 50px 30px;
+}
+
+#about-me h2 {
+    font-size: 200%;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+    border-color: #B01212;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 40%;
+}
+
+#about-me p {
+    text-align: justify;
+    padding: 20px 20px 0 20px;
+}
+
+#about-me p span:hover {
+    color: #F2F2F2;
+}
+
+#smiley {
+    border-radius: 100px;
+    padding: 0px;
+    width: 250px;
+    float: right;
+    margin: 10% 10% 10% 7%;
+}
+
+#smiley img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    margin-bottom: -7px;
+}
+
+/*About Me End*/
+
+/*Skill Set*/
+
+.container2 ul {
+    list-style-type: none;
+    line-height: 3.0;
+}
+
+.container2 .simple-fourth ul {
+    margin-top: 60px;
+    border-style: groove;
+    padding-bottom: 20px;
+}
+
+.container2 .simple-fourth ul li {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 60px;
+}
+
+.container2 .simple-fourth ul h3 {
+    border-bottom-style: solid;
+    border-width: 2.5px;
+    border-color: #B01212;
+    margin: 0 10% 5% 15%;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#soft {
+    margin-top: 200px;
+}
+
+#soft li {
+    margin-left: -20px;
+}
+
+#languages {
+    margin-top: 0px;
+}
+
+#hobbies {
+    margin-top: 100px;
+}
+
+/*Skill Set End*/
+
+/*Timeline Start*/
+
+#time-heading {
+    color: black;
+}
+
+.timeline {
+    margin: 0 3%;
+    list-style: none;
+    position: relative;
+    padding: 2%;
+    color: #F2F2F2;
+}
+
+.timeline h2 {
+    padding-bottom: 7px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border-bottom-style: solid;
+}
+
+.timeline .date {
+    font-size: 75%;
+    padding: 20px;
+}
+
+#start {
+    content: "";
+    border-bottom-style: solid;
+    border-color: #000;
+    margin-left: 43%;
+    margin-right: 51%;
+    margin-bottom: 0;
+}
+
+.timeline p {
+    margin-top: 15px;
+}
+
+/***The line***/
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background: #000;
+    margin-left: 43.25%;
+    margin-top: 0;
+}
+
+.timeline li {
+    position: relative;
+}
+
+/***The Left Side***/
+
+.timeline li .left-event {
+    background-color: black;
+    background: -webkit-linear-gradient(#191818, #000);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#191818, #000);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#191818, #000);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#191818, #000);
+    /* Standard syntax */
+    padding: 30px;
+    margin-right: 59%;
+    position: relative;
+    border-radius: 5px;
+}
+
+/***The Right Side***/
+
+.timeline li .right-event {
+    width: 40%;
+    margin-left: 52%;
+    background-color: black;
+    background: -webkit-linear-gradient(#191818, #000);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#191818, #000);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#191818, #000);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#191818, #000);
+    /* Standard syntax */
+    padding: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+
+/***The triangle***/
+
+.timeline li .right-event:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-right-color: #191818;
+    border-width: 12px;
+    top: 5%;
+}
+
+.timeline li .left-event:after {
+    left: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-left-color: #191818;
+    border-width: 12px;
+    top: 5%;
+}
+
+/***The icons***/
+
+.timeline li .icon {
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    background: #E10C0C;
+    background: -webkit-linear-gradient( #E10C0C, #AF0A0A);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #E10C0C, #AF0A0A);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #E10C0C, #AF0A0A);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #E10C0C, #AF0A0A);
+    /* Standard syntax */
+    border-radius: 50%;
+    margin-left: 43.6%;
+    padding: 2%;
+}
+
+.timeline .highlight:hover {
+    color: white;
+}
+
+#end {
+    content: "";
+    border-top-style: solid;
+    border-color: #000;
+    margin-left: 43%;
+    margin-right: 51%;
+    margin-top: 0;
+}
+
+/*Timeline End*/
+
+/*Footer*/
+
+footer.container2 {
+    color: ghostwhite;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+footer ul {
+    vertical-align: top;
+    display: inline-block;
+    color: ghostwhite;
+    margin: 50px 20px 0px 50px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+footer ul li {
+    font-size: 78%;
+    line-height: 2.5;
+    padding-top: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+footer ul li a:hover {
+    color: red;
+}
+
+.fa-linkedin-square,
+.fa-instagram {
+    font-size: 32px;
+}
+
+.fa-linkedin-square:hover,
+.fa-instagram:hover {
+    color: red;
+}
+
+/*End Footer*/
+
+/*Portfolio*/
+
+#portfolio {
+    padding-bottom: 200px;
+}
+
+#portfolio img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+    height: auto;
+    -webkit-transition: 0.5 ease;
+    transition: 0.5 ease;
+}
+
+#portfolio .one-half:hover img {
+    -webkit-transition: 0.5 ease;
+    transition: 0.5 ease;
+    opacity: 0.3;
+}
+
+#portfolio .one-half:hover .mid-info {
+    opacity: 1;
+}
+
+#portfolio .one-half {
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 100px;
+    max-width: 500px;
+    min-width: 200px;
+    -webkit-transition: 0.5 ease;
+    transition: 0.5 ease;
+}
+
+#portfolio .mid-info {
+    opacity: 0;
+    background-color: #2b771d;
+
+}
+
+#portfolio a {
+    text-decoration: none;
+}
+
+#portfolio .mid-info p {
+    padding: 10px;
+    font-size: 1.1em;
+    color: ghostwhite;
+}
+
+/*End Portfolio*/
+
+/*Tic Tac Toe*/
+
+#tictactoe {
+    text-align: center;
+}
+
+#tictactoe h3 {
+    margin-top: 100px;
+    font-size: 1.4em;
+}
+
+/*End Tic Tac Toe*/
+
+/*Contact*/
+
+#contactme {
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: auto;
+    padding: 10px 50px;
+    width: 75%;
+    max-width: 600px;
+}
+
+.container1 .container2 {
+    border-radius: 20px;
+}
+
+#contactme form {
+    line-height: 50px;
+}
+
+#contactme input[type=text],
+select,
+textarea {
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#contactme textarea {
+    height: 200px;
+}
+
+#contactme input[type=submit] {
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #2b771d;
+    color: ghostwhite;
+}
+
+#contactme input[type=submit]:hover {
+    background-color: darkgreen;
+}
+
+/*End Contact*/
+
+/*tablet size*/
+
+@media only screen and (max-width: 1280px) {
+    body {
+        font-size: 14px;
+    }
+    header ul {
+        padding-right: 30px;
+    }
+    header ul li {
+        padding-right: 10px;
+    }
+    #banner {
+        height: 525px;
+        padding-top: 0px;
+    }
+    #banner .trans-box {
+        position: relative;
+        top: 30%;
+        font-size: 100%;
+    }
+    #smiley {
+        display: none;
+    }
+    #about-me {
+        margin-left: 3%;
+        width: 85%;
+    }
+    .container2 .simple-fourth {
+        margin: 0;
+        padding: 0;
+        width: 95%;
+    }
+    .container2 .simple-fourth ul h3 {
+        margin: 0 30% 20px 30%;
+        padding: 0;
+        border-style: none;
+        border-bottom-style: solid;
+    }
+    .container2 .simple-fourth ul {
+        margin: 30px 80px 30px 40px;
+        padding: 0;
+    }
+    .container2 .simple-fourth ul li {
+        display: inline-block;
+    }
+    #soft {
+        margin: 30px -20px 30px 100px;
+    }
+    #languages {
+        margin: 30px 200px 30px 10px;
+    }
+    #hobbies {
+        margin: 30px 0px 30px 200px;
+    }
+}
+
+/*Phone size*/
+
+@media only screen and (max-width: 767px) {
+    footer,
+    footer ul,
+    footer ul li a {
+        color: black;
+    }
+    .title {
+        width: 50%;
+        border-color: white;
+    }
+    .container1 {
+        background: #464343;
+        color: #F2F2F2;
+        width: 100%;
+    }
+    .one-half {
+        background: transparent;
+        box-shadow: none;
+    }
+    .container2 {
+        background: #C4C1C1;
+        color: black;
+        width: 100%;
+    }
+    /*About Me*/
+    .one-half h2 {
+        width: 65%;
+    }
+    #about-me h2 {
+        border-width: 2.5px;
+        border-color: white;
+    }
+    #about-me p {
+        padding-left: 0;
+        margin-left: -15px;
+    }
+    /*About Me end*/
+    /*Skill Set*/
+    .container2 .title {
+        border-color: black;
+        margin-bottom: 30px;
+    }
+    .container2 .simple-fourth ul {
+        margin: 0;
+        border-style: none;
+        padding: 30px 10px 50px 20px;
+    }
+    .container2 .simple-fourth ul li {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+    .container2 .simple-fourth h3 {
+        width: 75%;
+    }
+    .container2 .simple-fourth ul h3 {
+        border-style: solid;
+        border-color: #B01212;
+        margin: 0 10% 3% 15%;
+        padding-left: 10px;
+        text-align: center;
+    }
+    #soft {
+        margin: 0px;
+        padding-left: 20px;
+    }
+
+    #soft li {
+        margin-left: 0px;
+    }
+    #languages {
+        margin: 0;
+
+    }
+    #hobbies {
+        margin: 0;
+    }
+    /*Skill Set End*/
+    /*Timeline Start*/
+    #time-heading {
+        color: white;
+        border-style: none;
+    }
+    .timeline {
+        margin: 0 3%;
+        list-style: none;
+        position: relative;
+        padding: 2%;
+    }
+    .timeline h2 {
+        padding-bottom: 7px;
+        margin-right: 10%;
+        margin-bottom: 10px;
+        border-bottom-style: solid;
+    }
+    .timeline .date {
+        font-size: 75%;
+        padding: 20px;
+    }
+
+    #start {
+        content: "";
+        border-bottom-style: none;
+        margin: 0;
+    }
+    .timeline p {
+        margin-top: 15px;
+    }
+    /***The line***/
+    .timeline:before {
+        width: 0;
+        background: transparent;
+        margin: 0;
+    }
+    /***The Left Side***/
+    .timeline li .left-event {
+        width: 90%;
+        background: transparent;
+        padding: 30px 0px 30px 30px;
+        margin: 0;
+        position: relative;
+        border-radius: 5px;
+    }
+    /***The Right Side***/
+    .timeline li .right-event {
+        width: 90%;
+        margin: 0;
+        background: transparent;
+        padding: 30px 0 30px 30px;
+        position: relative;
+        border-radius: 5px;
+    }
+    /***The triangle***/
+    .timeline li .right-event:after {
+        border-style: none;
+        border-width: 0;
+    }
+    .timeline li .left-event:after {
+        border-style: none;
+        border-width: 0;
+    }
+    /***The icons***/
+    .timeline li .icon {
+        margin-left: 0%;
+        padding: 10px;
+        margin-top: 39px;
+    }
+
+    .timeline .highlight:hover {
+        color: white;
+    }
+
+    #end {
+        border-style: none;
+        margin: 0;
+    }
+    /*Timeline End*/
+    /*Banner Start*/
+    #banner .trans-box {
+        padding-top: 2%;
+        padding-bottom: 5%;
+        text-decoration: none;
+        font-size: 115%;
+    }
+    #banner .trans-box h1 {
+        font-size: 200%;
+    }
+    #banner .trans-box ul {
+        margin-bottom: -20px;
+        padding-top: 10px;
+        list-style-type: none;
+    }
+    #banner .trans-box ul li {
+        display: none;
+        margin-top: 10px;
+        padding: 0 20px;
+        border-right-style: groove;
+    }
+    #banner .trans-box ul li:hover {
+        background-color: #D6D4D4;
+    }
+    #banner .trans-box ul li a:hover {
+        color: black;
+    }
+    /*Banner End*/
+    /*Header Start*/
+    header {
+        padding: 10px 0 10px 0;
+        height: 40px;
+        min-height: 40px;
+        background-color: #3D3C3C;
+        overflow: hidden;
+
+        border-bottom-style: groove;
+        border-bottom-width: 4px;
+        border-bottom-color: #C6BDBD;
+    }
+    header #menu-icon {
+        width: 20px;
+        float: right;
+        padding: 20px;
+    }
+    header nav {
+        float: right;
+        padding-top: 5px;
+    }
+    header nav a:hover {
+        color: #D81414;
+    }
+    header ul {
+        position: absolute;
+        background-color: #3D3C3C;
+        border-radius: 10px;
+        display: none;
+        margin: 35px 0px 0px -85px;
+    }
+    header ul li {
+        display: block;
+        padding: 10px 0px 10px 30px;
+    }
+    #menu-icon {
+        position: relative;
+        display: inline;
+        margin: -22px 0px 0px 0px;
+    }
+    #menu-icon .menu-iconElement {
+        background-color: #F2F2F2;
+        height: 3px;
+        width: 30px;
+        margin: 5px 0px 0px -15px;
+        padding: 0;
+    }
+    #menu-icon:hover {
+        opacity: 0.7;
+    }
+    /*Header End*/
+    #portfolio .mid-info p {
+        font-size: 0.9em;
+    }
+    #contactme {
+        width: 65%;
+        margin-left: 5%;
+        padding-left: 25px;
+    }
+    #contactme input[type=text],
+    select,
+    textarea {
+        display: block;
+        width: 220px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
